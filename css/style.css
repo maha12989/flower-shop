@@ -4,9 +4,11 @@
 *{
    margin: 0;
    padding: 0;
+   border: none;
    outline: 0;
    box-sizing: border-box;
    font-family: "Lato", sans-serif;
+   overflow: hidden;
 }
 
 a{
@@ -18,14 +20,44 @@ ul li{
 }
 
 .container{
-   padding: 0 10%;
+   padding: 0 5%;
    margin: 0 auto;
+}
+
+.para{
+   font-weight: 400;
+   color: rgb(39, 39, 39, 60%);
+   font-size: 18px;
+}
+
+.btn{
+   padding: 20px 43px;
+   border-radius: 8px;
+   background-color: #E55473;
+   font-size: 20px;
+   font-weight: 700;
+   color: #ffffff;
 }
 
 /* Header part style */
 .header{
    width: 100%;
    height: 100vh;
-   background-color: #E55473;
-   opacity: 10%;
+   background-color: rgba(229, 84, 155, 10%);
+}
+
+.banner_content{
+   margin-top: 105px;
+   width: 708px;
+}
+
+.banner_content h1{
+   font-weight: 800;
+   font-size: 80px;
+   color: #272727;
+}
+
+.banner_content .para{
+   width: 634px;
+   margin: 32px 0;
 }
