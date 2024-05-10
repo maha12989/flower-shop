@@ -8,7 +8,7 @@
    outline: 0;
    box-sizing: border-box;
    font-family: "Lato", sans-serif;
-   overflow: hidden;
+   overflow-x: hidden;
 }
 
 a{
@@ -81,4 +81,54 @@ img{
    position: absolute;
    right: 0;
    bottom: 0;
+}
+
+section{
+   margin-bottom: 128px;
+}
+
+.featured{
+   width: 100%;
+   height: 100vh;
+}
+
+.featured .featured_title{
+   text-align: center;
+}
+
+.featured .featured_title h2{
+   font-size: 40px;
+   font-weight: 800;
+   color: #272727;
+   margin-top: 40px;
+}
+
+.featured .featured_title .para{
+   width: 594px;
+   margin: 24px auto 48px;
+}
+
+.featured_imgBox{
+   display: flex;
+   gap: 24px;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.featured_imgBox .imgBox{
+   width: 464px;
+   height: 605px;
+}
+
+
+.featured_imgBox .colorBox{
+   background-color: rgb(166, 33, 97, 15%);
+   border-top-right-radius: 300px;
+   border-top-left-radius: 300px;
+}
+
+.featured_imgBox img{
+   width: 100%;
+   height: 100%;
+   padding: 110px 76px 0;
 }
